@@ -12,6 +12,13 @@ namespace Eq2Grau.Controllers {
          _logger = logger;
       }
 
+      /// <summary>
+      /// Cálculo das raízes de uma equação do 2º grau
+      /// </summary>
+      /// <param name="A">parâmetro do x2</param>
+      /// <param name="B">parâmetro do x</param>
+      /// <param name="C">parâmetro independente</param>
+      /// <returns></returns>
       public IActionResult Index(string A, string B, string C) {
          /* ALGORITMO
           * 1- ler parâmetros a, b, c
