@@ -36,4 +36,10 @@
 
 </form>
 
-
+@if (!string.IsNullOrEmpty(ViewBag.mensagem)) {
+   <p>
+      @ViewBag.mensagem <br />
+      x1 = @ViewBag.x1 <br />
+      x2 = @ViewBag.x2
+   </p>
+}
