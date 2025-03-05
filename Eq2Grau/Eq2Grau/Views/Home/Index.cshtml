@@ -24,9 +24,13 @@
 
 
 <form>
-   a = <input  type="text"/> <br />
-   b = <input type="text"/> <br />
-   c = <input type="text" /> <br />
+   a = <input type="text" id="A" name="A" /> <br />
+   @* ID -> usado para aceder ao objeto 'input' no cliente
+   no browser, com o javascript
+   NAME -> usado para aceder ao conteúdo do objeto no servidor
+   *@
+   b = <input type="text" name="B" /> <br />
+   c = <input type="text" name="C" /> <br />
 
    <input type="submit" value="Calcular" />
 
